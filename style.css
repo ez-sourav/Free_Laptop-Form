@@ -1,0 +1,135 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', 'Arial';
+    color: #000;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: #7c7777;
+}
+
+body, h1, h2, p, td {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+} 
+
+img{
+    width: 100%;
+    vertical-align: top;
+}
+
+header {
+    background: #fff;
+}
+header {
+    display: block;
+}
+header h2 {
+    font-size: 23px;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    background: #FF5733;
+}
+.main_container {
+    background: #fff;
+    padding: 25px 30px 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.main_container h1{
+    font-size: 25px;
+    color: #3498DB;
+    font-weight: 400;
+    line-height: 30px;
+}
+b {
+    font-weight: 700;
+}
+.main_container .ril-step {
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.main_container .ril-step .s-padding {
+    padding: 5px 0;
+    font-size: 16px;
+}
+.main_container .form-step {
+    padding-top: 10px;
+}
+.main_container .form-step label {
+    color: #34495E;
+    font-weight: 600;
+    font-size: 15px;
+    display: block;
+    padding: 10px 0 5px;
+}
+.main_container .form-step .textbox1 {
+    height: 30px;
+    color: #34495E;
+    font-size: 16px;
+    border: 1px solid #3498DB;
+    border-radius: 3px;
+    display: block;
+    width: 100%;
+    padding: 0 5px;
+}
+input,  select {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+.main_container .form-step .state {
+    width: 100%;
+    border: 1px solid #3498DB;
+    color: #34495E;
+    border-radius: 3px;
+    height: 30px;
+    font-size: 16px;
+}
+h2 {
+    font-size: 100%;
+    font-weight: normal;
+}
+.main_container .form-step .button {
+    width: 100%;
+    display: block;
+    font-size: 22px;
+    margin-top: 25px;
+    background: #4CAF50;
+    color: #eaeaea;
+    text-align: center;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+.fixed_width {
+    width: 600px;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 1200px) {
+    .fixed_width {
+        width: 100%;
+        padding: 0px 50px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .fixed_width {
+        width: 100%;
+        padding: 0px 50px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .fixed_width {
+        padding: 0px 10px;
+    }
+}
